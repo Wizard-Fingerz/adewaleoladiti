@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://yourdomain.com'; // TODO: Update with actual domain
+  const baseUrl = 'https://adewaleoladiti.onrender.com/'; // TODO: Update with actual domain
 
   return [
     {
