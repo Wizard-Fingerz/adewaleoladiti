@@ -1,13 +1,10 @@
 services:
   - type: web
     name: adewale-oladiti-portfolio
-    runtime: node
+    runtime: static
     region: frankfurt
-    plan: free
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    staticPublishPath: ./out
     envVars:
-      - key: NODE_ENV
-        value: production
       - key: NODE_VERSION
         value: 20.11.0
