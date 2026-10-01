@@ -65,4 +65,10 @@ export const cvFiles = [
     filename: "Oladiti Adewale John CV Graduate Intern Banking 2026.docx",
     category: "finance",
   },
+  {
+    label: "System Administrator",
+    description: "System administration and IT infrastructure roles",
+    filename: "Oladiti Adewale John CV System Administrator 2026.docx",
+    category: "engineering",
+  },
 ];
